@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITR form</title>
+    <style>
+        div{
+            background-color: aqua;
+             height: auto;
+              width: 800px;
+              margin: auto;
+              
+          
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">ITR from filling</h1>
+    <hr>
+    <div>
+        <h1>&#9997; e-filling</h1>
+        <hr>
+        
+        <form>
+            <h3 style="margin: 10px;">Status</h3>
+        <select name="" id="" style="margin: 10px; height: 30px; width:auto;">
+            <option value="Self">Self Employee</option>
+            <option value="empp">Employee</option>
+            <option selected value="business">Business</option>
+            <option value="none">None</option>
+        </select><br>
+        <hr>
+            <h3>Personal Information</h3>
+            <label for="first" style="margin: 10px;">First Name:</label>
+            <input type="text" placeholder="First name" id=" first" required>
+            <label for="last" style="margin-left: 40px;">Last Name:</label>
+            <input type="text" placeholder="last name" id="last" required>
+            <br>
+            <br>
+            <label for="male" style="margin: 10px;"> Male</label>
+            <input type="radio" id="male" name="gender" required>
+            <label for="female"> Female</label>
+            <input type="radio" id="female" name="gender" required>
+            <br>
+            <br>
+            <label for="dob" style="margin: 10px;">Date of birth</label>
+            <input type="date" id="dob" ><br><br>
+            <label for="pan" style="margin: 10px;">Pancard number</label>
+            <input type="number " placeholder="Enter Pan No " id="pan" required><br><br>
+            <label for="aadhar" style="margin: 10px;">Aadharcard number</label>
+            <input type="number " placeholder="Enter AAdhar No " id="aadhar" required><br><br>
+            <label for="phone" style="margin: 10px;">Contact No: </label>
+            <input type="number" id="phone"required  /><br><br>
+            <label for="my-email" style="margin: 10px;">Email: </label>
+            <input type="email" id="my-email" placeholder="Enter email..." required/><br>
+            <h4 style="margin: 10px;">Documents to upload</h4>
+            <label for="pan-doc" style="margin: 10px;">Pan Doc</label>
+            <input type="file"  id="pan-doc" >
+            <br>
+            <br>
+            <label for="aadhar-doc" style="margin: 10px;">Aadher Doc</label>
+            <input type="file"  id="aadhar-doc" >
+            <br>
+            <br>
+            <label for="mark-doc" style="margin: 10px;">employee Doc</label>
+            <input type="file"  id="mak-doc" >
+            <br>
+            <div style="margin: 10px;">
+                <h4>select checkmark which document is uploaded </h4>
+                <label for="panch">Pan Card</label>
+                <input type="checkbox" id="panch" />
+            
+                <br>
+                <label for="aadharch">Aadhar card</label>
+                <input type="checkbox" id="aadharch" /> 
+                
+                <br>
+
+                <label for="emp">Employee Documents</label>
+                <input type="checkbox" id="emp" />
+
+                <br>
+
+                <label for="other">Others</label>
+                <input type="checkbox" id="other"/>
+            </div>
+            <br>
+            <br>
+            <div >
+            <input type="submit" style="background-color: rgb(176, 218, 113); padding: 10px; height: 40px; width: 120px;margin: 20px;"> 
+            <button style="background-color: green; padding: 10px; height: 40px; width: 120px;margin: 20px; margin-left: 70px;">Save</button>
+            
+            <input type="reset" style="background-color:rgb(231, 89, 89); padding: 10px; height: 40px; width: 120px; margin-left: 60px;"> 
+            </div>
+
+
+            
+        </form>
+    </div>
+</body>
+</html>
